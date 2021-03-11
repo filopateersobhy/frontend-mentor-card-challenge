@@ -98,8 +98,10 @@ section {
   color: hsl(0, 0%, 59%);
   font-weight: 400;
 }
-.profile p {
-  padding: 0.5rem 0rem;
+.profile span {
+    padding: 0.5rem 0rem;
+    color: hsl(0, 0%, 59%);
+
 }
 
 .info {
@@ -113,7 +115,7 @@ section {
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
-.info p {
+.info span {
   color: #797980;
   font-size: 1rem;
 }
@@ -176,7 +178,7 @@ section {
     text-align: center;
     margin-top: 80px;
   }
-  .pro-text p {
+  .pro-text span {
     padding: 20px 0px;
   }
 
@@ -197,7 +199,7 @@ section {
     font-weight: 700;
     font-size: 20px;
   }
-  .info p {
+  .info span {
     color: hsl(0, 0%, 59%);
     font-weight: 400;
     font-size: 15px;
@@ -260,11 +262,11 @@ section {
         padding: 0rem 0rem;
         font-size: 1rem;
     }
-    .pro-text p {padding: 10px;}
+    .pro-text span {padding: 10px;}
     .info h2 {
         font-size: 1rem;
     }
-    .info p {
+    .info span {
         font-size: 10px;
     }
 }
